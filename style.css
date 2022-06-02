@@ -1,0 +1,43 @@
+#name {
+    font-size: 50px !important;
+    width: 310px;
+}
+
+#btn {
+    font-size: 20px !important;
+}
+
+#btn:hover {
+    background-color: blue;
+}
+
+#img {
+    width: 80px;
+    height: 80px;
+}
+
+#img4 {
+    width: 80px;
+    height: 40px;
+}
+
+#img5 {
+    width: 100px;
+    height: 85px;
+}
+
+canvas {
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: 140px;
+}
+
+@keyframes example {
+    from {
+        box-shadow: 1px 1px 38px red;
+    }
+    to {
+        box-shadow: 1px 1px 38px yellow;
+    }
+}
